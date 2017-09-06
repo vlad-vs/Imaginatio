@@ -1,0 +1,9 @@
+.login_container{
+	display: block;
+	box-sizing: border-box;
+	width: 400px;
+	margin: 20px auto;
+	border: 2px solid lightgrey;
+	padding: 15px;
+	border-radius: 15px;
+}

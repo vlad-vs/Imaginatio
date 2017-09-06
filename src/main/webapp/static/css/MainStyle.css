@@ -1,0 +1,283 @@
+
+/*====LOGIN====*/
+
+.login_register_container{
+	font-size: 18px;
+	display: block;
+	box-sizing: border-box;
+	width: 400px;
+	margin: 20px auto;
+	border: 2px solid lightgrey;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+/*===============*/
+
+/*===PAGES===*/
+
+.wrapper_FirstPage{
+	height: 100%;
+	border-radius: 20px;
+}
+
+.header_firstPage {
+	font-size: 24px;
+	display: block;
+	box-sizing: border-box;
+	font-weight: 800;
+	padding: 15px 20px;
+	text-align: right;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+.log_button_block {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.log_button {
+	width: 120px;
+	padding: 10px;
+	margin: 5px;
+	color: white;
+	border-radius: 15px;
+	font-weight: 800;
+	font-size: 18px;
+	text-decoration: none;
+}
+.content {
+	display: block;
+	box-sizing: border-box;
+	margin-top: 45%;
+	background: black;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 800;
+	margin-bottom: 50px;
+}
+.content a {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+/*=============*/
+
+.wrapper {
+	display: block;
+	box-sizing: border-box;
+	width: 1200px;
+	font-size: 0px;
+	margin: 0px auto;
+}
+.header{
+	font-size: 24px;
+	display: block;
+	box-sizing: border-box;
+	background-color: grey;
+	font-weight: 800;
+	padding: 15px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+}
+.bookBar{
+	display: block;
+	box-sizing: border-box;
+	font-weight: 800;
+	font-size: 18px;
+	text-transform:uppercase;
+
+}
+.bookBar li{
+	display: block;
+	box-sizing: border-box;
+	padding: 15px 20px;
+}
+.bookBar a{
+	text-decoration: none;
+	color: black;
+}
+
+.pageTextContainer{
+	font-size: 22px;
+	display: block;
+	vertical-align: top;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: lightgray;
+	border-radius: 30px;
+}
+.bookButton{
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+}
+.bookButtons{
+	display: block;
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+.bookButton-view {
+	font-size: 18px;
+	width: 594px;
+	padding: 10px 15px;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 20px;
+	background: lightblue;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.page {
+	display: block;
+	padding-top: 20px;
+	width: 94%;
+	margin: 0px auto;
+}
+.button {
+	margin-top: 5px;
+	padding: 10px 15px;
+	width: 100%;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 30px;
+	background: lightgreen;
+}
+
+.pageImg {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 250px;
+}
+.pageText {
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 20px;
+	width: 800px;
+	vertical-align: top;
+}
+.pageNumber {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 120px;
+	font-size: 16px;
+}
+
+.choiceButtons {
+	font-size: 18px;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: top;
+	width: 50%;
+}
+
+.accordion {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 120px;
+	font-size: 16px;
+
+	width: 800px;
+	margin: 30px auto;
+	border: 1px solid #f1f1f1;
+	box-sizing: border-box;
+	/*display:  inline-block; */
+	font-size: 16px;
+}
+.ac-head{
+	/*width: 100px;*/
+	height: 300px;
+	/*width: 10px;*/
+	position: relative;
+	display: inline-block;
+	padding: 20px 10px;
+	border-bottom: 1px solid #f1f1f1;
+	background: #b0c4f3;
+	color: white;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-weight: 800;
+
+	/*transform: rotate(90deg);*/
+	/*transition: 0.3s background */
+}
+
+.ac-head:hover {
+	background: #94a8d6;
+
+}
+
+.accordion input{
+	display: none;
+}
+
+.ac-body{
+
+	/*width: 50px;*/
+	display: inline-block;
+	vertical-align:  top;
+	box-sizing: border-box;
+	background: #f1f1f1;
+	width: 0px;
+	overflow: hidden;
+	font-size: 16px;
+	/*margin-top: -1px;*/
+}
+.ac-body p{
+	padding: 0px;
+}
+
+.acc-logic:checked ~.ac-body{
+
+	width:400px;
+
+}
+
+.test{
+    display:  inline-block; 
+    vertical-align:  top;
+     margin-left: -8px;
+}
+
+
+
+label{
+-webkit-writing-mode: vertical-lr;
+}
+
+.rotate{
+    display: block;
+    font-size: 16px;
+    /*color: black;*/
+    
+    transform: rotate(180deg);
+}
+
+
+/*fotorama*/
+
+.fotorama--wrapper
+{
+	/*margin-top: 150px;*/
+	display: block;
+	box-sizing: border-box;
+	width: 1200px;
+	margin: 0px auto;
+	background: black;
+}
+.banner {
+	width: 1200px;
+	/*height: 500px;*/
+	background: black;
+	margin: 0px auto;
+	border-radius: 20px;
+}
+
+.with_for_carusel {
+	width: 200px;
+}
